@@ -1,0 +1,160 @@
+.contact_section{
+    padding-top: 5%;
+
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+
+    @media (max-width: $mediem-size) {
+        height: 100%;
+    }
+
+    background-image: linear-gradient(to bottom,
+    rgba(255, 255, 255, 0.76) 0%,
+    rgba(0, 0, 0, 1) 100%), url(../Asset/contact.webp);
+
+    background: {
+        repeat: no-repeat;
+        size: cover;
+    }
+
+    overflow: auto;
+
+    h1{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+.contact_container {
+    margin-top: 10%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+
+    gap: 3vh 5%;
+    flex-flow: wrap;
+
+    @media (max-width: $mediem-size) {
+        flex-direction: column;
+        gap: 3% 5%;
+    }
+
+    @media (max-width: $mediem-size) {
+        width: 95%
+    }
+
+    .infor_card {
+        position: relative;
+        border-radius: 10px;
+
+        @media (max-width: $mediem-size) {
+            margin: 10px 0px 0 10px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            min-width: 108px;
+            background: #f00;
+            transition: 0.7s;
+            z-index: 1;
+
+            .fa {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 80px;
+                transition: 0.7s;
+                color: #fff;
+            }
+        }
+
+        .face {
+            width: 300px;
+            height: 200px;
+            transition: 0.5s;
+        }
+
+        .face.face1 {
+            position: relative;
+            background: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+
+            .content {
+                opacity: 1;
+                transition: 0.5s;
+                i{
+                    max-width: 100px;
+                }
+            }
+        }
+
+        .face.face2 {
+            position: relative;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+
+            .content p {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                color: #414141;
+                @media (max-width: $mediem-size) {
+                    font-size: 4%;
+                }
+            }
+        }
+        .face.face2 .content h3 {
+            margin: 0 0 10px 0;
+            padding: 0;
+            color: #fff;
+            font-size: 24px;
+            text-align: center;
+            color: #414141;
+
+            @media (max-width: $mediem-size) {
+                font-size: 6%;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #414141;
+    }
+}
+
+.contact_container .infor_card:nth-child(1) .icon {
+    background: #e07768;
+}
+
+.contact_container .infor_card:nth-child(2) .icon {
+    background: #6eadd4;
+}
+
+.contact_container .infor_card:nth-child(3) .icon {
+    background: linear-gradient(to bottom left, red, yellow);;
+}
+
+.contact_container .infor_card:nth-child(4) .icon {
+    background: #144AFF;
+}

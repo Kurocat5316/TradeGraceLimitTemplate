@@ -1,0 +1,21 @@
+$iconWidth: 3%;
+$iconHeigh: 3%;
+
+$large-size: 1200px;
+$mediem-size: 640px;
+$small-size: 320px;
+
+@import './common/common.scss';
+@import './common/main-nav.scss';
+
+@import './homepage/introduce-main.scss';
+@import './homepage/profile.scss';
+@import './homepage/service-exhibition.scss';
+
+@import './productshow/product_exhibition.scss';
+@import './productshow/product_list.scss';
+
+@import './contactus/contactusIcon.scss';
+@import './contactus/contactusForm.scss';
+
+@import './test.scss';

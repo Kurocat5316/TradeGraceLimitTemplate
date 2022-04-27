@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TRADE GRACE LIMITED</title>
+        <link rel="stylesheet" href="./Css/style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div class="sideBarButton">
+                <a href="#section_menu" onclick="menuShow()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </a>
+                
+            </div>
+            <section class="section_menu" id="section_menu">
+                <div class="hideMenuButton">
+                    <a href="#section_menu" onclick="menuHide()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+                        </svg>
+                    </a>
+                </div>
+                <nav class="menu_caliban">
+                    <ul class="menu_list">
+                        <li class="menu_item"><a href="index.html" class="menu_link">Home</a></li>
+                        <li class="menu_item"><a href="windows.html" class="menu_link">Windows & Door</a></li>
+                        <li class="menu_item"><a href="light.html" class="menu_link">Light</a></li>
+                        <li class="menu_item menu_item_current"><a href="furniture.html" class="menu_link">Furniture</a></li>
+                        <li class="menu_item"><a href="construct.html" class="menu_link">Construct Material</a></li>
+                        <li class="menu_item"><a href="contactus.html" class="menu_link">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <main>
+            <section class="product_exhibition_section">
+                <img src="Asset/furniture/topexhibition/exhibition1.jpeg">
+                <a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z"/>
+                    </svg>
+                </a>
+                <a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                    </svg>
+                </a>
+                <div class="img_container" id="img_container">
+                    <img src="./Asset/furniture/topexhibition/gallery1.png" alt="top_gallary_1">
+                    <img src="./Asset/furniture/topexhibition/gallery2.png" alt="top_gallary_2">
+                    <img src="./Asset/furniture/topexhibition/gallery3.png" alt="top_gallary_3">
+                    <img src="./Asset/furniture/topexhibition/gallery4.png" alt="top_gallary_4">
+                    <img src="./Asset/furniture/topexhibition/gallery5.png" alt="top_gallary_5">
+                    <img src="./Asset/furniture/topexhibition/gallery6.png" alt="top_gallary_6">
+                </div>
+            </section>
+
+            <section class="product_list">
+                <ul class="main_product_nav">
+                    <li data-num="1" class="tab wave dark">Window1</li>
+                    <li data-num="2" class="tab wave dark">Window2</li>
+                    <li data-num="3" class="tab wave dark">Window3</li>
+                    <li data-num="4" class="tab wave dark">Door1</li>
+                    <li data-num="5" class="tab wave dark">Door2</li>
+                    <div class="indicator"></div>
+                  </ul>
+
+                <div class="products_exhibition">
+                    <ul class="card-wrapper">
+                        <li class="card">
+                          <img src='https://images.unsplash.com/photo-1611916656173-875e4277bea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
+                          <h3><a href="">A Super Wonderful Headline</a></h3>
+                          <p>Lorem ipsum sit dolor amit</p>
+                        </li>
+                        <li class="card">
+                          <img src='https://images.unsplash.com/photo-1611083360739-bdad6e0eb1fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
+                          <h3><a href="">What a Fantabulous Title!</a></h3>
+                          <p>Lorem ipsum sit dolor amit</p>
+                        </li>
+                        <li class="card">
+                          <img src='https://images.unsplash.com/photo-1613230485186-2e7e0fca1253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
+                          <h3><a href="">Positively Terrific Title</a></h3>
+                          <p>Lorem ipsum sit dolor amit</p>
+                        </li>
+
+                        <li class="card">
+                            <img src='https://images.unsplash.com/photo-1613230485186-2e7e0fca1253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
+                            <h3><a href="">Positively Terrific Title</a></h3>
+                            <p>Lorem ipsum sit dolor amit</p>
+                          </li>
+
+                          <li class="card">
+                            <img src='https://images.unsplash.com/photo-1613230485186-2e7e0fca1253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
+                            <h3><a href="">Positively Terrific Title</a></h3>
+                            <p>Lorem ipsum sit dolor amit</p>
+                          </li>
+
+                          <li class="card">
+                            <img src='https://images.unsplash.com/photo-1613230485186-2e7e0fca1253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
+                            <h3><a href="">Positively Terrific Title</a></h3>
+                            <p>Lorem ipsum sit dolor amit</p>
+                          </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        
+        
+        
+    </body>
+
+    <script src="./js/exhibition.js"></script>
+</html>

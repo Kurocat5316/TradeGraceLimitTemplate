@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>About Us</title>
+        <link rel="stylesheet" href="./Css/style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div class="sideBarButton">
+                <a href="#section_menu" onclick="menuShow()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </a>
+                
+            </div>
+            <section class="section_menu" id="section_menu">
+                <div class="hideMenuButton">
+                    <a href="#section_menu" onclick="menuHide()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+                        </svg>
+                    </a>
+                </div>
+                <nav class="menu_caliban">
+                    <ul class="menu_list">
+                        <li class="menu_item"><a href="index.html" class="menu_link">Home</a></li>
+                        <li class="menu_item"><a href="windows.html" class="menu_link">Windows & Door</a></li>
+                        <li class="menu_item"><a href="light.html" class="menu_link">Light</a></li>
+                        <li class="menu_item"><a href="furniture.html" class="menu_link">Furniture</a></li>
+                        <li class="menu_item"><a href="construct.html" class="menu_link">Construct Material</a></li>
+                        <li class="menu_item menu_item_current"><a href="contactus.html" class="menu_link">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <main>
+            <section class="contact_section">
+                <div class="contact_container">
+                    <div class="infor_card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <i class="fa fa-at" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3>
+                                    Email
+                                </h3>
+                                <p>tradegrace1@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="infor_card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3>
+                                    Phone
+                                </h3>
+                                <p>0123456.</p>
+                                <p>from 9AM to 6:30PM</p>
+                                <p>from Monday to Friday</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="infor_card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3>
+                                    <a href="#" target="_blank">Instagram</a>
+                                </h3>
+                                <p>This is where I share code and work on projects.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="infor_card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3>
+                                    <a href="#" target="_blank">Facebook</a>
+                                </h3>
+                                <p>It is a facebook address</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="contactform">
+                <div class="container">
+                    <form >
+                      <p>Contact Us</p>
+                      <input type="text" placeholder="First Name"><br>
+                      <input type="text" placeholder="Last Name"><br>
+                      <input type="email" placeholder="Email"><br>
+                      <textarea type="text" placeholder="Messasge"></textarea>
+                      <input type="button" value="Send"><br>
+                    </form>
+                  
+                    <div class="drops">
+                      <div class="drop drop-1"></div>
+                      <div class="drop drop-2"></div>
+                      <div class="drop drop-3"></div>
+                      <div class="drop drop-4"></div>
+                      <div class="drop drop-5"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        
+        <script src="./js/exhibition.js"></script>
+    </body>
+</html>
